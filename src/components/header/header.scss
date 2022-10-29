@@ -1,0 +1,21 @@
+header {
+   
+    .bg-light {
+        background-color: rgb(255, 255, 255) !important;
+        --bs-bg-opacity: 0;
+    }
+    .btn {
+        border: none;
+        flex-grow: 1;
+    }
+    .nav-link {
+        color: rgba(0, 0, 0, .85);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+.gap {
+    gap: 30px;
+} // @media (max-width: 1366px) {}

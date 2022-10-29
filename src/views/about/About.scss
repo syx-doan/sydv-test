@@ -1,0 +1,17 @@
+.about {
+   
+    padding: 40px 0;
+    background: linear-gradient(180deg,rgba(255,80,0,.0289474),rgba(255,80,0,.12));
+
+}
+
+.about-header {
+    margin-top: -40px;
+}
+
+.about-list {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 30px;
+}

@@ -1,0 +1,32 @@
+.feature {
+    background: white;
+    h2 {}
+    .text {
+        text-align: center;
+        color: #5c5c5c;
+        font-size: 14px;
+    }
+}
+
+.intro-container {
+    // display: flex;
+    // justify-content: center;
+    // flex-wrap: wrap;
+    // gap: 32px;
+}
+
+.footer-feature {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    h5 {
+        font-weight: 500;
+        color: var(--primary);
+        cursor: pointer;
+        line-height: 24px;
+        font-size: 16px;
+    }
+    img {
+        margin-left: 21px;
+    }
+}

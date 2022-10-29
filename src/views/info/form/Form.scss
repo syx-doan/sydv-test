@@ -1,0 +1,66 @@
+.form-contact {
+    
+    background-image: url(../../../assets/images/bg-contact.png);
+    padding: 40px 0 0;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(255, 80, 0, 0.0289474) 0%, rgba(255, 80, 0, 0.12) 100%);
+}
+.content-contact {
+    h2 {
+        width: 100%;
+    }
+    .text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #5c5c5c;
+    }
+}
+.form-status {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', 'tnum';
+    .input-name {
+        align-items: center;
+        padding: 5px 12px;
+        background: #ffffff;
+        border: 1px solid #d9d9d9;
+        border-radius: 8px;
+      
+    }
+    .input-number {
+        margin-top: 16px;
+      
+        padding: 5px 12px;
+        background: #ffffff;
+        border: 1px solid #d9d9d9;
+        border-radius: 8px;
+    }
+    .area-status {
+        border: none;
+        list-style: none;
+        margin: 16px 0;
+        background: #ffffff;
+        height: 113px;
+        border: 1px solid #d9d9d9;
+        border-radius: 8px;
+       
+        padding: 5px 12px;
+        margin-top: 16px;
+    }
+    .button {
+       width: 100%;
+    }
+}
+
+.form-status {
+    display: flex;
+    flex-direction: column;
+}

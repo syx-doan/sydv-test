@@ -1,0 +1,28 @@
+.hero {
+    width: 100%;
+    background: linear-gradient( 180deg, rgba(255, 80, 0, 0.0289474) 0%, rgba(255, 80, 0, 0.12) 100%);
+    .text {
+        text-align: center;
+    }
+}
+
+.container-hero {
+    .hero-header {
+        padding-bottom: 40px;
+        text-align: center;
+        .text {
+            line-height: 30px;
+        }
+    }
+    .btn-center {
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+    }
+}
+
+.hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

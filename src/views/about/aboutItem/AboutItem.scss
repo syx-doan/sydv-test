@@ -1,0 +1,44 @@
+
+.about-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px 16px;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #021628;
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+.about-avatar {
+    width: 126px;
+    min-width: 126px;
+    height: 126px;
+    min-height: 126px;
+    border-radius: 100%;
+}
+
+.about-details {
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 16px;
+    h5 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #021628;
+        margin-bottom: 0;
+    }
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 0.45);
+    }
+}

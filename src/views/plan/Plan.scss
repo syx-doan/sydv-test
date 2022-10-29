@@ -1,0 +1,21 @@
+.plan {
+    margin: 0 auto;
+    background: linear-gradient( 180deg, rgba(255, 80, 0, 0.0289474) 0%, rgba(255, 80, 0, 0.12) 100%);
+}
+
+.plan-header {
+    // margin-top: -40px;
+    // margin: 0 auto 60px;
+    // text-align: center;
+    .heading {
+        // margin-top: -40px;
+        padding-top: 40px;
+    }
+    .text {
+        margin-top: 8px;
+        color: #5c5c5c;
+    }
+    .hight-text {
+        color: var(--primary);
+    }
+}

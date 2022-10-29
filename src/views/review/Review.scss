@@ -1,0 +1,29 @@
+.review {
+    background: linear-gradient( 180deg, rgba(255, 80, 0, 0.0289474) 0%, rgba(255, 80, 0, 0.12) 100%);
+    padding-bottom: 100px;
+    // text-align: center;
+    .review-header {
+        display: block;
+        margin: 40px auto 60px;
+        text-align: center;
+        .heading {
+   
+            .hight-text {
+                color: var(--primary);
+            }
+        }
+        .text {
+            margin-top: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: center;
+            color: #5c5c5c;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+.who-list {
+    margin-left: 5%;
+}

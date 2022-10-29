@@ -1,0 +1,22 @@
+.slider {
+    background-image: url(../../assets/images/banb1.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    min-height: 900px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+        color: #053865;
+    }
+    .text {
+        color: #5c5c5c;
+        text-align: center;
+    }
+
+}
